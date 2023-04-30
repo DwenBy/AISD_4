@@ -148,7 +148,7 @@ struct AVL_Tree {
 		Child->Left = Parent;
 		Parent->Right = Temp;
 
-		//NEED TO REWORK
+		
 		Parent->Level = max(Height(Parent->Left), Height(Parent->Right)) + 1;
 		Child->Level = max(Height(Child->Left), Height(Child->Right)) + 1;
 
