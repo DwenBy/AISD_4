@@ -1,2 +1,2 @@
-Алгоритм JPEG запускается через файл JpegEncoder \n
+Алгоритм JPEG запускается через файл JpegEncoder <br />
 Фрактальное сжатие - через FractalDecompress
